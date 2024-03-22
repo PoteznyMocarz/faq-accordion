@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="custom-classes.css">
+  <title>Frontend Mentor | FAQ accordion</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body class="bg-[#f8eefe] flex min-h-screen items-center justify-center font-WorkSans px-6 py-8">
+<img class="absolute w-screen sm:hidden z-[-1] top-0 left-0" src="/assets/images/background-pattern-mobile.svg" alt="">
+<img class="absolute w-screen hidden z-[-1] top-0 left-0 sm:inline" src="/assets/images/background-pattern-desktop.svg" alt="">
+<main class="bg-white rounded-[17px] py-7 px-7 pb-1 w-[600px] sm:px-9">
+  <div class="flex h-fit items-center gap-6">
+    <img class="h-[30px] w-[30px] sm:h-[42px] sm:w-[42px]" src="/assets/images/icon-star.svg" alt="">
+    <h1 class="text-[#2a172f] font-[700] text-[35px] sm:text-[52px]">FAQs</h1>
+  </div>
+  
+<div class="mt-6 flex flex-col gap-6 border-b-[2px] border-b-[#8c6991] border-opacity-10">
+  <div id="answ1" class="flex justify-between h-fit items-center cursor-pointer group">
+    <span class="text-[#352538] font-[640] text-[17px] leading-5 max-w-[220px] sm:max-w-fit sm:text-[19px] group-hover:text-[#ae49dc] transition-all">What is Frontend Mentor, and how will it help me?</span>
+    <img id="img1" class="object-none" src="/assets/images/icon-minus.svg" alt="">
+  </div>
+  <p id="text1" class="text-[#8c6991] font-[400] active overflow-hidden text-[16px] max-h-0 transitions">Frontend Mentor offers realistic coding challenges to help developers improve their 
+  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+  all levels and ideal for portfolio building.</p>
+</div>
+
+<div class="mt-6 flex flex-col gap-6 border-b-[2px] border-b-[#8c6991] border-opacity-10">
+  <div id="answ2" class="flex justify-between h-fit items-center cursor-pointer group">
+    <span class="text-[#352538] font-[620] text-[17px] leading-5 max-w-[220px] sm:max-w-fit sm:text-[19px] group-hover:text-[#ae49dc] transition-all">Is Frontend Mentor free?</span>
+    <img id="img2" class="object-none" src="/assets/images/icon-plus.svg" alt="">
+  </div>
+  <p id="text2" class="text-[#8c6991] font-[400] overflow-hidden max-h-0 transitions">Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+    option providing access to a range of projects suitable for all skill levels.</p>
+</div>
+
+<div class="mt-6 flex flex-col gap-6 border-b-[2px] border-b-[#8c6991] border-opacity-10">
+  <div id="answ3" class="flex justify-between h-fit items-center cursor-pointer group">
+    <span class="text-[#352538] font-[620] text-[17px] leading-5 max-w-[220px] sm:max-w-fit sm:text-[19px] group-hover:text-[#ae49dc] transition-all">Can I use Frontend Mentor projects in my portfolio?</span>
+    <img id="img3" class="object-none" src="/assets/images/icon-plus.svg" alt="">
+  </div>
+  <p id="text3" class="text-[#8c6991] font-[400] overflow-hidden max-h-0 transitions">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+    way to showcase your skills to potential employers!</p>
+</div>
+
+<div class="mt-6 flex flex-col gap-6">
+  <div id="answ4" class="flex justify-between h-fit items-center cursor-pointer group">
+    <span class="text-[#352538] font-[620] text-[17px] leading-5 max-w-[220px] sm:max-w-fit sm:text-[19px] sm:leading-7 group-hover:text-[#ae49dc] transition-all">How can I get help if I'm stuck on a Frontend Mentor challenge?</span>
+    <img id="img4" class="object-none" src="/assets/images/icon-plus.svg" alt="">
+  </div>
+  <p id="text4" class="text-[#8c6991] font-[400] overflow-hidden max-h-0 transitions">The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+    channel where you can ask questions and seek support from other community members.</p>
+</div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

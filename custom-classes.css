@@ -1,0 +1,8 @@
+.active {
+    max-height: 200px;
+    padding-bottom: 24px;
+}
+
+.transitions {
+    transition: all 0.4s;
+}
